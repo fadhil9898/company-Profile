@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +16,12 @@
     <!-- swiper css -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100" id="home">
     <!-- header -->
      <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
         <div class="container mx-auto flex justify-between h-full items-center">
             <!-- logo -->
-             <a href="">
+             <a href="#">
                 <img src="assets/logo.svg" alt="">
              </a>
              <!-- nav -->
@@ -32,12 +32,12 @@
                  </div>
                 <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 
                 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
-                    <ul><a href="">Home</a></ul>
-                    <ul><a href="">About</a></ul>
-                    <ul><a href="">Testimonials</a></ul>
-                    <ul><a href="">Our Services</a></ul>
-                    <ul><a href="">News</a></ul>
-                    <ul><a href="">Contact</a></ul>
+                    <ul><a href="#home">Home</a></ul>
+                    <ul><a href="#about">About</a></ul>
+                    <ul><a href="#testimonial">Testimonials</a></ul>
+                    <ul><a href="#Services">Our Services</a></ul>
+                    <ul><a href="#news">News</a></ul>
+                    <ul><a href="#contact">Contact</a></ul>
                 </ul>
              </nav>
         </div>
@@ -106,7 +106,7 @@
          </section>
 
          <!-- about -->
-         <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+         <section id="about" class="about mt-[80px] xl:mt-[200px] relative z-20">
             <div class="container mx-auto xl:px-0">
                 <div class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]">
                     <!-- text -->
@@ -137,7 +137,7 @@
          </section>
 
          <!-- testimonials -->
-         <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+         <section id="testimonial" class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
             <div class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
                 <div class="flex flex-col items-center pt-[88px] pb-[110px]">
                     <h2 class="testimonial__title h2 mb-9 text-center">
@@ -226,7 +226,7 @@
           </section>
 
           <!-- work -->
-           <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+           <section id="Services" class="work mt-[80px] xl:mt-[150px] relative z-20">
             <div class="container mx-auto xl:px-0">
                 <!-- text -->
                  <div class="text-center mb-24">
@@ -322,7 +322,7 @@
             </section>
 
             <!-- news -->
-             <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+             <section id="news" class="news mt-[80px] xl:mt-[150px] relative z-20">
                 <div class="container mx-auto px-0">
                     <!-- text -->
                      <div class="max-w-[810px] mx-auto text-center mb-[52px]">
@@ -375,7 +375,7 @@
              </section>
 
              <!-- contact -->
-              <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+              <section id="contact" class="contact mt-[80px] xl:mt-[150px] relative z-20">
                 <div class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]">
                     <div class="contact__text max-w-[640px] mx-auto text-center">
                         <h2 class="h2 text-white mb-4">Do you want join IndoDrip?</h2>

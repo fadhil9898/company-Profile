@@ -878,6 +878,10 @@ video {
   overflow: hidden;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-\[30px\] {
   border-radius: 30px;
 }

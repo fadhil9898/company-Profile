@@ -69,9 +69,19 @@ sr.reveal('.stats__item', {
 // news
 sr.reveal('.news__title');
 sr.reveal('.news__subtitle', {delay: 800});
-
 sr.reveal('.news__title', {
     distance: '100px',
     interval: 200,
     delay: 1000,
 });
+
+// contact
+sr.reveal('.contact__container');
+sr.reveal('.contact__text', {delay: 800});
+
+// footer
+sr.reveal('.footer__item', {
+    distance: '100px',
+    interval: 100,
+});
+sr.reveal('.footer__copyright');
