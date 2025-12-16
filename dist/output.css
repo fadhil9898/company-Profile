@@ -757,8 +757,16 @@ video {
   max-width: 1920px;
 }
 
+.max-w-\[260px\] {
+  max-width: 260px;
+}
+
 .max-w-\[382px\] {
   max-width: 382px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .max-w-\[450px\] {
@@ -791,26 +799,6 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-0 {
-  max-width: 0px;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[400\] {
-  max-width: 400;
-}
-
-.max-w-\[400px\] {
-  max-width: 400px;
-}
-
-.max-w-\[260px\] {
-  max-width: 260px;
 }
 
 .flex-1 {
@@ -857,6 +845,10 @@ video {
   gap: 1rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
@@ -869,20 +861,8 @@ video {
   gap: 30px;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
-.gap-\[\] {
-  gap: ;
-}
-
 .gap-\[54px\] {
   gap: 54px;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .gap-x-\[104px\] {
@@ -988,14 +968,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-\[80px\] {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .pb-\[110px\] {
@@ -1042,22 +1022,22 @@ video {
   line-height: 1;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1267,28 +1247,16 @@ h6 {
     margin-right: 0px;
   }
 
+  .xl\:mb-\[150px\] {
+    margin-bottom: 150px;
+  }
+
   .xl\:mt-\[150px\] {
     margin-top: 150px;
   }
 
   .xl\:mt-\[200px\] {
     margin-top: 200px;
-  }
-
-  .xl\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .xl\:mb-\[\] {
-    margin-bottom: ;
-  }
-
-  .xl\:mb-\[150px\] {
-    margin-bottom: 150px;
-  }
-
-  .xl\:flex {
-    display: flex;
   }
 
   .xl\:h-\[840px\] {
@@ -1331,20 +1299,12 @@ h6 {
     justify-content: flex-end;
   }
 
-  .xl\:gap-\[74px\] {
-    gap: 74px;
-  }
-
-  .xl\:gap-\[\] {
-    gap: ;
-  }
-
   .xl\:gap-\[100px\] {
     gap: 100px;
   }
 
-  .xl\:gap-\[100p\] {
-    gap: 100p;
+  .xl\:gap-\[74px\] {
+    gap: 74px;
   }
 
   .xl\:rounded-bl-\[290px\] {
