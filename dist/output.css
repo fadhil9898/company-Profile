@@ -595,9 +595,7 @@ video {
 .sticky {
   position: sticky;
 }
-.bottom-0 {
-  bottom: 0px;
-}
+
 .left-0 {
   left: 0px;
 }
@@ -1175,6 +1173,10 @@ h6 {
 .swiper-pagination-bullet {
   --tw-bg-opacity: 1;
   background-color: rgb(41 47 54 / var(--tw-bg-opacity, 1));
+}
+
+section{
+  scroll-margin-top: 115px;
 }
 
 .hover\:bg-accent-secondary:hover {

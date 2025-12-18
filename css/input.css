@@ -45,3 +45,6 @@ h6 {
 .swiper-pagination-bullet{
     @apply bg-primary;
 }
+section{
+  scroll-margin-top: 115px;
+}
